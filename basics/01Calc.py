@@ -11,11 +11,11 @@ def resta(n1,n2):
     print (r,"\n")
 
 def mult(n1,n2):
-    m=n1*n2;
+    m=n1*n2
     print (m,"\n")
 
 def div(n1,n2):
-    d=n1/n2;
+    d=n1/n2
     if d == 0: 
         print ("Error, op no valida")
     else: 
