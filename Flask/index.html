@@ -1,0 +1,16 @@
+<!--Para FlaskPruebaDB-->
+
+<!doctype html>
+<title>Hello from Flask</title>
+{% if person %}
+  <!--Mostrar variable desde return render_template("index.html", person="Oscar")-->
+  <h1>Hello {{ person }}!</h1>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
+
+<form method="POST" action="/login">
+  <input type="text" name="username">
+  <input type="password" name="password">
+  <button type="submit">Enviar</button>
+</form>
